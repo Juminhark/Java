@@ -1,0 +1,40 @@
+package ch10.ex02;
+
+public enum Level {
+	GOLD(3, null), SILVER(2, GOLD), BASIC(1, SILVER);
+	
+	private final int value;
+	private final Level next;
+	
+	private Level(int value, Level next){
+		this.value = value;
+		this.next = next;
+	}
+	
+	public int intValue(){
+		return this.value;
+	}
+	
+	public Level nextLevel(){
+		return this.next;
+	}
+	
+	public static Level valueOf(int value){
+		switch (value){
+		case 1:
+			return BASIC;
+		case 2:
+			return SILVER;
+		case 3:
+			return GOLD;
+		default:
+			throw new AssertionError("Unknown value: "+ value);
+		}
+	}
+	
+	
+	
+	
+	
+//try exception이 발생하도 멈추지않게하려서 사용
+}
