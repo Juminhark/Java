@@ -1,6 +1,6 @@
 package ch03.ex04.case01;
 
-public class Arith {
+public class Arithmetic {
 	public static void main(String[] args){
 		byte a = 3;
 		byte b = 2;
