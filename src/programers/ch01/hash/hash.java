@@ -24,7 +24,7 @@ public class hash {
         System.out.println(fruitMap.get("자두")); //3000
 
         // HashMap 에 넣은 Key 와 Value 를 Set 에 넣고 iterator 에 값으로 Set 정보를 담에 준다.
-        // Interator itr = fruitMap.entrySet().interator(); 와 같다.
+        // Integrator itr = fruitMap.entrySet().interator(); 와 같다.
         Set<Map.Entry<String, Integer>> set = fruitMap.entrySet();
         Iterator<Map.Entry<String, Integer>> itr = set.iterator();
 
