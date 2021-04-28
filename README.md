@@ -10,7 +10,6 @@
 - Spring Boot Extension Pack : Extension 설치
 - [Apache Maven](https://maven.apache.org/) 설치
 - 환경변수 설정 : Path에 설치 위치 편집
--
 
 ## Folder Structure
 
