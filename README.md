@@ -69,6 +69,9 @@ The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More detail
     - case05. Season
     - case06. RandomVal
   - ex03.
+    - case01. While
+    - case02. DrawingLots
+    - case03. Lunch
   - ex04.
   - ex05.
 - ch05.
