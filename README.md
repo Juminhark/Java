@@ -1,8 +1,16 @@
-## [java](https://code.visualstudio.com/docs/java/java-tutorial)
+## [Getting Started with Java in VS Code](https://code.visualstudio.com/docs/java/java-tutorial)
 
-## Getting Started
+- Visual Studio Code
+- Java Extension for Visual Studio Code : Extension 설치
+- java: Configure Java Runtime 에서 install a JDK
+- Setting(CTRL + ,) 에서 java.home 으로 jdk 설치위치 지정
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## [Spring Boot in Visual Studio Code](https://code.visualstudio.com/docs/java/java-spring-boot)
+
+- Spring Boot Extension Pack : Extension 설치
+- [Apache Maven](https://maven.apache.org/) 설치
+- 환경변수 설정 : Path에 설치 위치 편집
+-
 
 ## Folder Structure
 
@@ -15,7 +23,7 @@ The workspace contains two folders by default, where:
 
 The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
 
-### java
+## tutorial
 
 - ch01. helloWorld
 - ch02.
